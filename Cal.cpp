@@ -12,6 +12,8 @@ void CCAL::addPosition(double x, double y)
         fprintf(stderr, "メモリ割り当てエラー\n");
         exit(1);
     }
+
+	//aaa
     newNode->position.x = x;
     newNode->position.y = y;
     newNode->next = head;
@@ -51,6 +53,10 @@ bool CCAL::CalTest(int i)
 		sprintf(sLog,"input = %d, output = %d",CalIO[0],CalIO[1]);
 		cTool.OutputLog(sLog);
 		sleep(1);
+	}
+	else
+	{
+		;
 	}
 
 	return true;
