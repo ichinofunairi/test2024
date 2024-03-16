@@ -7,6 +7,9 @@ using namespace std;
 
 /*testest*/
 
+
+
+//testes
 // 新しい位置情報をリストに追加する関数
 void CCAL::addPosition(double x, double y) 
 {
