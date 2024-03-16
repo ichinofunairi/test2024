@@ -64,6 +64,10 @@ bool CCAL::CalTest(int i)
 		cTool.OutputLog(sLog);
 		sleep(1);
 	}
+	else
+	{
+		;
+	}
 
 	return true;
 }
