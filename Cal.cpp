@@ -13,7 +13,7 @@ void CCAL::addPosition(double x, double y)
         exit(1);
     }
 
-	//aaa
+	//aaa + bbb
     newNode->position.x = x;
     newNode->position.y = y;
     newNode->next = head;
