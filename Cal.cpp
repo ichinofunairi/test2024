@@ -20,6 +20,10 @@ void CCAL::addPosition(double x, double y)
         fprintf(stderr, "メモリ割り当てエラー\n");
         exit(1);
     }
+	else
+	{
+		;
+	}
     newNode->position.x = x;
     newNode->position.y = y;
     newNode->next = head;
