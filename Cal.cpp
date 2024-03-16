@@ -2,6 +2,9 @@
 using namespace std;
 
 
+
+
+
 /*testest*/
 
 // 新しい位置情報をリストに追加する関数
